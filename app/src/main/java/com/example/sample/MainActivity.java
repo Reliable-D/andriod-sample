@@ -1,6 +1,8 @@
 package com.example.sample;
 
 import android.os.Bundle;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+//        TextView text = findViewById(R.id.text);
+//        ViewGroup.LayoutParams layoutParams = text.getLayoutParams();
     }
 }
